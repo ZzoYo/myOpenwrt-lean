@@ -18,11 +18,11 @@
 
 
 # Add liuran package
-sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
 
 # Add kenzok8 package
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # Add MrH723 package
-#sed -i '$a src-git MrH723 https://github.com/MrH723/openwrt-packages' feeds.conf.default
+sed -i '$a src-git MrH723 https://github.com/MrH723/openwrt-packages' feeds.conf.default
